@@ -22,20 +22,30 @@
 
             h1 {
                 margin-bottom: 8px;
-                font-size: 34px;
-                letter-spacing: -0.8px;
-            }
-
-            h2 {
-                margin-top: 32px;
-                margin-bottom: 8px;
-                font-size: 21px;
-                letter-spacing: -0.2px;
+                font-size: 40px;
+                letter-spacing: -1px;
             }
 
             p {
-                margin: 10px 0;
                 color: #424245;
+            }
+
+            .tagline {
+                margin-bottom: 32px;
+                font-size: 18px;
+            }
+
+            .card {
+                margin-top: 16px;
+                padding: 20px 24px;
+                border: 1px solid #e5e5e7;
+                border-radius: 16px;
+                background: #f5f5f7;
+            }
+
+            .card h2 {
+                margin-top: 0;
+                font-size: 20px;
             }
 
             a {
@@ -57,6 +67,11 @@
                     color: #d2d2d7;
                 }
 
+                .card {
+                    border-color: #424245;
+                    background: #2c2c2e;
+                }
+
                 a {
                     color: #2997ff;
                 }
@@ -65,14 +80,20 @@
     </head>
     <body>
         <h1>Eta Support</h1>
+        <p class="tagline">
+            Eta is a privacy-focused personal expense tracker for iOS.
+        </p>
 
-        <p>Eta is a privacy-focused personal expense tracker for iOS.</p>
+        <section class="card">
+            <h2>Contact</h2>
+            <p>For support, feedback, or feature requests:</p>
+            <a href="mailto:datnq1210@gmail.com">datnq1210@gmail.com</a>
+        </section>
 
-        <h2>Contact</h2>
-        <p>For support, feedback, or feature requests, contact:</p>
-        <p><a href="mailto:datnq1210@gmail.com">datnq1210@gmail.com</a></p>
-
-        <h2>Privacy Policy</h2>
-        <p>Read the <a href="./privacy-policy">Eta Privacy Policy</a>.</p>
+        <section class="card">
+            <h2>Privacy Policy</h2>
+            <p>Learn how Eta handles your data and protects your privacy.</p>
+            <a href="./privacy-policy.html">Read the Eta Privacy Policy</a>
+        </section>
     </body>
 </html>
